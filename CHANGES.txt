@@ -9,3 +9,9 @@
 1.0.0 - 2025-05-23
 
 - First stable release
+
+1.0.1 - 2025-08-26
+
+- Repo transfered to Data Inquiry Consulting
+- Updated the README file for the new repository location
+- Changed the license to GNU GPL

@@ -1,9 +1,9 @@
 [package]
 name = "starter"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Jaime Lopez <jailop@protonmail.com>"]
-license = "MIT"
+license = "GPL-3.0-or-later"
 description = "Run and control commands in parallel"
 readme = "README.md"
 repository = "https://github.com/jailop/starter"

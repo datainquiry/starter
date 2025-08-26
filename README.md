@@ -2,7 +2,7 @@
 
 <img src="screenshot.png"/>
 
-## 🚀 Motivation
+##  Motivation
 
 The problem that `Starter` solves is running multiple commands at the same time, to:
 
@@ -36,23 +36,29 @@ Why not run the commands as system services?
 * It is a user tool that doesn't require complex configuration or elevated
   privileges.
 
-## ⚠️ Limitations
+## Limitations
 
 This program is intended to run just a few commands at the same time (less than
 6). It is assumed that these commands are not interactive, i.e., they don't
 require user input.
 
-## 🛠️ Installation
+## Installation
 
 Requirements:
 
 * Rust installed (1.70.0 or later).
 * Cargo installed (1.70.0 or later).
 
+```
+cargo install starter
+```
+
+Or, if you prefer to clone the repository:
+
 Clone the repository:
 
 ```bash
-git clone git@github.com:jailop/starter.git
+git clone git@github.com:datainquiry/starter.git
 ```
 
 Go to the folder, build, and install the program:
@@ -63,7 +69,7 @@ cargo build --release
 cargo install --path .
 ```
 
-## 📖 Usage
+## Usage
 
 To use this program, you need to create a configuration file that describes the
 processes you want to run.  The configuration file is a YAML file that contains
@@ -106,4 +112,6 @@ of each process.
 
 To quit, press `q`.
 
+## License
 
+See the `LICENSE` file.
