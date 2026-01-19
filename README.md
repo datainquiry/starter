@@ -1,5 +1,7 @@
 # Starter
 
+**Note:** This project has been archived. It is suggested to use [mprocs](https://github.com/pvolok/mprocs).
+
 <img src="screenshot.png"/>
 
 ##  Motivation
